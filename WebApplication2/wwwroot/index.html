@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvek Táblázat</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    <p><input id="cim" type="text" placeholder="konyvcime" /></p>
+    <p><input id="szerzo" type="text" placeholder="szerzo" /></p>
+    <p><input id="ev" type="text" placeholder="év" /></p>
+    <p><input id="mufaj" type="text" placeholder="mufaj" /></p>
+    <p>elérheto-e<input id="elerheto" type="checkbox" placeholder="elerheto-e" /></p>
+    <p><button id="ujkonyvrogzito">Rögzites!</button></p>
+
+
+    <p><button id="megjelenitoGomb">Összes konyv megjelenitese</button></p>
+
+    <h1>Könyvek</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cím</th>
+                <th>Szerző</th>
+                <th>Kiadás Éve</th>
+                <th>Műfaj</th>
+                <th>Elérhetőség</th>
+            </tr>
+        </thead>
+        <tbody id="tb_konyvek">
+        </tbody>
+    </table>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
